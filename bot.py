@@ -138,7 +138,7 @@ def webhook():
     # EVERY 3RD MESSAGE
     # -----------------------------
 
-    if niko_message_count % 1 == 0:
+    if niko_message_count % 3 == 0:
 
         islam_style_messages = [
 
